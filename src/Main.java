@@ -1,7 +1,6 @@
 import java.util.Arrays;//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    //public static void main(String[] args) {
     // 1. Метод printThreeWords()
        /*public static void main(String[] args) {
         printThreeWords();
@@ -17,7 +16,7 @@ public class Main {
         checkSumSign();
     }
 
-    public static void checkSumSign() {
+   public static void checkSumSign() {
         int a = 5;
         int b = -10;
         int sum = a + b;
@@ -77,37 +76,37 @@ public class Main {
     }*/
     // 6. Метод, определяющий знак числа
     /*public static void main(String[] args) {
-        checkNumberSign(10);
-        checkNumberSign(-5);
-        checkNumberSign(0);
+        checkNumber(5);
+        checkNumber(-3);
+        checkNumber(0);
     }
 
-    public static void checkNumberSign(int number) {
-        if (number > 0) {
-            System.out.println(number + " — положительное число.");
-        } else if (number < 0) {
-            System.out.println(number + " — отрицательное число.");
-        } else {
-            System.out.println(number + " — это ноль.");
-        }
-    }*/
-    // 7. Вывод положительного или отрицательного числа
-    /*public static void main(String[] args) {
-        printNumberType();
-    }
-
-    public static void printNumberType() {
-        int number = -3;
-
+    public static void checkNumber(int number) {
         if (number >= 0) {
-            System.out.println(number + " — положительное число");
+            System.out.println("Положительное число");
         } else {
-            System.out.println(number + " — отрицательное число");
+            System.out.println("Отрицательное число");
         }
     }*/
+
+    // 7. Возврат true(отрицательное)  false (положительное)
+    /*public static void main(String[] args) {
+        System.out.println(isNegative(-5));
+        System.out.println(isNegative(3));
+        System.out.println(isNegative(0));
+    }
+
+    public static boolean isNegative(int number) {
+        if (number < 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }*/
+
     //8 Метод, печатающий строку n раз
     /*public static void main(String[] args) {
-        printStringMultipleTimes("I like Java!", 13); // Вызов метода
+        printStringMultipleTimes("I like Java!", 13);
     }
 
     public static void printStringMultipleTimes(String text, int times) {
